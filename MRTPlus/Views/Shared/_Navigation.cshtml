@@ -1,0 +1,44 @@
+﻿<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">Example user</strong>
+                            </span> <span class="text-muted text-xs block">Example menu <b class="caret"></b></span>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+                <div class="logo-element">
+                    MRT+
+                </div>
+            </li>
+            <li class="@Html.IsSelected(action: "Index")">
+                <a href="@Url.Action("Index", "Home")"><i class="fa fa-laptop"></i> <span class="nav-label">Home</span> </a>
+            </li>
+            <li class="@Html.IsSelected(action: "Portfolio")">
+                <a href="@Url.Action("Index", "Portfolio")"><i class="fa fa-desktop"></i> <span class="nav-label">Portfolios</span></a>
+            </li>
+            <li class="@Html.IsSelected(action: "Project")">
+                <a href="@Url.Action("Index", "Project")"><i class="fa fa-desktop"></i> <span class="nav-label">Projects</span></a>
+            </li>
+            <li class="@Html.IsSelected(action: "SME")">
+                <a href="@Url.Action("Index", "SME")"><i class="fa fa-pied-piper"></i> <span class="nav-label">Person</span></a>
+            </li>
+            <li class="@Html.IsSelected(action: "Building")">
+                <a href="@Url.Action("Index", "Building")"><i class="fa fa-building"></i> <span class="nav-label">Buildings</span></a>
+            </li>
+            <li class="@Html.IsSelected(action: "Equipment")">
+                <a href="@Url.Action("Index", "Equipment")"><i class="fa fa-building"></i> <span class="nav-label">Equipment</span></a>
+            </li>
+            <li class="@Html.IsSelected(action: "System")">
+                <a href="@Url.Action("Index", "System")"><i class="fa fa-building"></i> <span class="nav-label">Systems</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
