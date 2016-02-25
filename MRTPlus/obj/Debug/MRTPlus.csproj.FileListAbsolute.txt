@@ -62,3 +62,5 @@ C:\Users\marcus\OneDrive\VisualStudioProjects\MRTPlus\MRTPlus\bin\System.Web.Htt
 C:\Users\marcus\OneDrive\VisualStudioProjects\MRTPlus\MRTPlus\bin\System.Web.Http.WebHost.dll
 C:\Users\marcus\OneDrive\VisualStudioProjects\MRTPlus\MRTPlus\bin\System.Web.Http.xml
 C:\Users\marcus\OneDrive\VisualStudioProjects\MRTPlus\MRTPlus\bin\System.Web.Http.WebHost.xml
+C:\Users\marcus\OneDrive\VisualStudioProjects\MRTPlus\MRTPlus\obj\Debug\MRTPlus.Migrations.Initial.resources
+C:\Users\marcus\OneDrive\VisualStudioProjects\MRTPlus\MRTPlus\obj\Debug\MRTPlus.csproj.GenerateResource.Cache

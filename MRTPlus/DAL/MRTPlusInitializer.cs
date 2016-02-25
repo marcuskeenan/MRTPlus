@@ -10,7 +10,7 @@ using System.Data.Entity;
 
 namespace MRTPlus.DAL
 {
-    public class MRTPlusInitializer : DropCreateDatabaseIfModelChanges<ApplicationDbContext>
+    public class MRTPlusInitializer : DropCreateDatabaseAlways<ApplicationDbContext>
     {
         protected override void Seed(ApplicationDbContext context)
         {
